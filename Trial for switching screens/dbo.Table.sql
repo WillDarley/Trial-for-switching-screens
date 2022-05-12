@@ -1,0 +1,10 @@
+﻿CREATE TABLE ListOfCars
+
+(
+	[CarID] INT NOT NULL PRIMARY KEY,
+    [Make] VARCHAR(50) NOT NULL, 
+    [Model] VARCHAR(50) NOT NULL, 
+    [Millage] VARCHAR(6) NOT NULL, 
+    [Year] NCHAR(4) NOT NULL, 
+    [Owners] VARCHAR(10) NOT NULL
+)
